@@ -30,6 +30,16 @@ echo "--- UFW Status ---" | tee -a "$CURRENT_LOG"
 sudo ufw status verbose 2>/dev/null | tee -a "$CURRENT_LOG"
 
 echo "" | tee -a "$CURRENT_LOG"
+echo "--- ClamAV Scan ---" | tee -a "$CURRENT_LOG"
+clamscan -r /home \
+  --exclude-dir=^/proc \
+  --exclude-dir=^/sys \
+  --exclude-dir=^/dev \
+  --exclude-dir=^/run \
+  --move="$HOME/quarantine" \
+  -l "$LOG_DIR/clamscan-$DATE.log" 2>/dev/null | grep -E "(FOUND|ERROR|Infected)" | tee -a "$CURRENT_LOG"
+
+echo "" | tee -a "$CURRENT_LOG"
 echo "--- Failed Login Attempts ---" | tee -a "$CURRENT_LOG"
 journalctl _SYSTEMD_UNIT=sshd.service --since "7 days ago" | grep -i "failed\|invalid" | tail -20 | tee -a "$CURRENT_LOG"
 
