@@ -117,3 +117,7 @@ I am currently studying for CompTIA Tech+ and plan to complete the exam by Octob
 ## Safety note
 
 These scripts are for lab use and learning. They should be reviewed before running on any production or work system.
+
+## Development note
+
+Portions of this repository were worked through in collaboration with Claude (Anthropic's AI assistant, via Claude Code), used as a pair-programming, debugging, and writing aid. All commands were run, all decisions made, and all results verified by me on my own hardware.
