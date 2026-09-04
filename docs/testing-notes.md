@@ -2,13 +2,13 @@
 
 ## Testing checklist
 
-Before committing a script:
+Before I commit a script:
 
-1. Run the script in a personal Linux lab environment.
-2. Confirm it does not require unnecessary administrative permissions.
-3. Confirm it handles missing arguments safely.
-4. Confirm output is readable.
-5. Document any distribution-specific behavior.
+1. Run it in my own Linux lab.
+2. Make sure it doesn't ask for admin rights it doesn't need.
+3. Check that it handles missing arguments safely.
+4. Check that the output is readable.
+5. Note any distribution-specific behavior.
 
 ## Test record template
 
