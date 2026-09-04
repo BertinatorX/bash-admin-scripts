@@ -1,10 +1,10 @@
 # Bash Admin Scripts
 
-Small Bash scripts for Linux system administration practice. This repository is focused on simple, readable scripts that support common entry-level IT tasks such as checking disk usage, reviewing logs, collecting system information, and creating basic reports.
+Small Bash scripts I'm writing to practice Linux system administration. Nothing fancy here, the point is simple, readable scripts for common entry-level IT tasks such as checking disk usage, reviewing logs, collecting system information, and putting together basic reports.
 
 ## Purpose
 
-I am building practical command-line skills for entry-level IT support, Linux administration, and cybersecurity fundamentals. These scripts are written for learning, documentation, and lab use.
+I'm building command-line skills for entry-level IT support, Linux administration, and cybersecurity fundamentals. These scripts are for learning, documentation, and lab use, that's it.
 
 ## Skills demonstrated
 
@@ -41,7 +41,7 @@ bash-admin-scripts/
 
 ### `disk-usage-check.sh`
 
-Checks disk usage and prints directories or files that may need review. This supports common support tasks where a user reports a full disk or slow system.
+Checks disk usage and prints directories or files that may need a look. This covers the common support case where a user reports a full disk or a slow system.
 
 ### `system-inventory.sh`
 
@@ -49,7 +49,7 @@ Collects basic system details such as OS version, kernel version, uptime, disk u
 
 ### `failed-login-review.sh`
 
-Reviews authentication logs in a lab environment to identify failed login attempts and summarize basic patterns.
+Goes through the authentication logs in a lab environment, pulls out the failed login attempts, and summarizes the basic patterns.
 
 ### `service-status-check.sh`
 
@@ -57,19 +57,19 @@ Checks whether selected services are active and prints a simple status report.
 
 ### `network-baseline.sh`
 
-Collects a basic network troubleshooting baseline, including IP addresses, routes, DNS test, IP connectivity test, and listening ports.
+Collects a basic network troubleshooting baseline, including IP addresses, routes, a DNS test, an IP connectivity test, and listening ports.
 
 ### `package-inventory.sh`
 
-Creates a basic package inventory for documentation and rebuild planning.
+Creates a basic package inventory for documentation and for planning a rebuild.
 
 ### `backup-folder.sh`
 
-Creates a timestamped backup of a selected folder for lab use. This script will include safety checks to avoid overwriting existing files.
+Makes a timestamped backup of a folder you point it at, for lab use. This one will get safety checks so it doesn't overwrite existing files.
 
 ## Script standards
 
-Each script should include:
+Every script should have:
 
 - A short purpose statement
 - Usage instructions
@@ -90,7 +90,7 @@ Each script should include:
 
 ## Testing approach
 
-Before adding a script, I will test it in a personal Linux lab environment and document:
+Before a script goes into the repo I'll test it in my own Linux lab and write down:
 
 - What system it was tested on
 - What command was run
@@ -99,7 +99,7 @@ Before adding a script, I will test it in a personal Linux lab environment and d
 
 ## Career relevance
 
-This repository supports applications for:
+This repo backs up my applications for:
 
 - IT Support Specialist
 - Help Desk Technician
@@ -108,16 +108,16 @@ This repository supports applications for:
 - Junior System Administrator
 - Cybersecurity Intern
 
-The goal is to show practical command-line ability and a willingness to automate repeatable support tasks.
+The goal is to show I can actually work at the command line and that I'm willing to automate the support tasks that keep repeating.
 
 ## Current certification status
 
-I am currently studying for CompTIA Tech+ and plan to complete the exam by October 2026.
+I'm studying for CompTIA Tech+ right now and plan to have the exam done by October 2026.
 
 ## Safety note
 
-These scripts are for lab use and learning. They should be reviewed before running on any production or work system.
+These scripts are for the lab and for learning. Read through them before running any of them on a production or work system.
 
 ## Development note
 
-Portions of this repository were worked through in collaboration with Claude (Anthropic's AI assistant, via Claude Code), used as a pair-programming, debugging, and writing aid. All commands were run, all decisions made, and all results verified by me on my own hardware.
+Parts of this repo were worked through with Claude (Anthropic's AI assistant, via Claude Code), which I used as a pair-programming, debugging, and writing aid. I ran every command, made every decision, and verified every result myself on my own hardware.

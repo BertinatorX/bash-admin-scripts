@@ -6,7 +6,7 @@
 ./scripts/disk-usage-check.sh
 ```
 
-Use this when practicing disk-space troubleshooting.
+I use this when I'm practicing disk-space troubleshooting.
 
 ## System inventory
 
@@ -14,7 +14,7 @@ Use this when practicing disk-space troubleshooting.
 ./scripts/system-inventory.sh
 ```
 
-Use this to collect basic system information before troubleshooting.
+I run this to collect basic system information before I start troubleshooting.
 
 ## Service status check
 
@@ -22,7 +22,7 @@ Use this to collect basic system information before troubleshooting.
 ./scripts/service-status-check.sh sshd NetworkManager
 ```
 
-Use this to check whether selected services are active and enabled.
+This checks whether the services I name are active and enabled.
 
 ## Network baseline
 
@@ -30,7 +30,7 @@ Use this to check whether selected services are active and enabled.
 ./scripts/network-baseline.sh
 ```
 
-Use this to collect basic network information before troubleshooting connectivity, DNS, or listening-port issues.
+I run this to collect basic network information before troubleshooting connectivity, DNS, or listening-port issues.
 
 ## Failed login review
 
@@ -38,4 +38,4 @@ Use this to collect basic network information before troubleshooting connectivit
 ./scripts/failed-login-review.sh
 ```
 
-Use this in a personal lab to review authentication failure messages.
+This one is for a personal lab, it reviews authentication failure messages.
